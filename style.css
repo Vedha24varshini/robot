@@ -1,0 +1,189 @@
+.head{
+    height: 7rem;
+    width: 7rem;
+    background-color: blue;
+    border-radius: 0% 0% 0% 0%;
+    position: relative;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    animation: movehead 1.5s infinite;
+}
+@keyframes movehead{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    25%{
+        transform: rotate(10deg);
+        background-color: aqua;
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(-10deg);
+        background-color: aquamarine;
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+}
+.eye1{
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+    animation: moveeye1 3s infinite;
+}
+
+.eye2{
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    margin-left: 4.5rem;
+    margin-top: 2.5rem;
+}
+.middle{
+    height: 7rem;
+    width: 7rem;
+    background-color: blue;
+    position: relative;
+    border-radius: 0% 0% 40% 40%;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+    animation: movemiddle 3s infinite;
+}
+
+.lhand{
+    height: 5rem;
+    width: 1rem;
+    background-color: blue;
+    border-radius: 10px ;
+    position: absolute;
+    margin-left: 8.5rem;
+    margin-top: -6.8rem;
+    animation: lhand 1s infinite;
+}
+@keyframes lhand{
+    0%{
+        transform:rotate(0deg);
+        transform-origin: top;
+    }
+    25%{
+        transform:rotate(10deg);
+        transform-origin: top;
+    }
+    50%{
+        transform:rotate(20deg);
+        transform-origin: top;
+    }
+    75%{
+        transform: rotate(-20deg);
+        transform-origin: top;
+    }
+    87%{
+        transform: rotate(-10deg);
+        transform-origin: top;
+    }
+    100%{
+        transform:rotate(0deg);
+        transform-origin: top;
+    }
+}
+.rhand{
+    height: 5rem;
+    width: 1rem;
+    background-color:blue;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 17.4rem;
+    margin-top: -6.8rem;
+    animation: rhand 1s infinite;
+}
+@keyframes rhand{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(10deg) ;
+    }
+    50%{
+        transform:rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    87%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+.legl{
+    height: 7rem;
+    width: 1rem;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 11.8rem;
+    margin-top: -2rem;
+    border-top-color : transparent;
+    animation: rhand 1s infinite;
+}
+@keyframes lhand{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(10deg) ;
+    }
+    50%{
+        transform:rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    87%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+.legr{
+    height: 7rem;
+    width: 1rem;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 14.5rem;
+    margin-top: -2rem;
+    animation: rhand 1s infinite;
+}
+@keyframes lhand{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(10deg) ;
+    }
+    50%{
+        transform:rotate(20deg);
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    87%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+
